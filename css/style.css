@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+.header .navbar {
+  border-bottom: 5px solid rgb(71, 71, 190);
+}
+#section2 .fab {
+  color: rgb(34, 31, 44);
+}
+.avt {
+  margin-top: -70px;
+}
+#section1 {
+  min-height: 550px;
+}
+#section2 .card-body:hover {
+  background: #3292a6;
+  color: #fff;
+}
+.footer {
+  background-color: #000000;
+  border-top: 5px solid rgb(53, 35, 70);
+}
+
+@media (max-width: 768px) {
+  #section2 .col-md-4 .card {
+    margin-top: 70px;
+  }
+} 
+
+/* cardHover */
+#section2 .card:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
